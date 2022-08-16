@@ -11,8 +11,8 @@ margin-left:-4px;
 background-color: rgb(30, 30, 54);
 }
 .col-md-3 img{
-width: 200px;
-height: 250px;
+width: 270px;
+height: 290px;
 }
 body .carousel-indicator li{
 background-color: rgb(37, 37, 49);
@@ -63,7 +63,7 @@ padding-right: 0;
                             <img src='/media/{{i.image}}' class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title" id="namepr{{i.id}}">{{i.product_name}}</h5>
-                                <p class="card-text">{{i.desc|slice:"0:53"}}...</p>
+                                <p class="card-text">{{i.desc|slice:"0:25"}}...</p>
                                 <h6 class="card-title" >Price: <span id="pricepr{{i.id}}">{{i.price}}</span></h6>
                                 <span id="divpr{{i.id}}" class="divpr">
                                     <button id="pr{{i.id}}" class="btn btn-dark btn btn-outline-success my-2 my-sm-0 cart">Add To Cart</button>
