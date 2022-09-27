@@ -110,4 +110,3 @@ def checkout(request):
    
     return render(request, 'shop/checkout.html')
 
-

@@ -90,7 +90,7 @@ if ($.isEmptyObject(cart)) {
         totalPrice = totalPrice + qty* itemPrice;
         mystr = `<li class="list-group-item d-flex justify-content-between align-items-center">
                     ${name}
-                    <span class="badge badge-primary badge-pill">${qty}</span>
+                    <span class="badge badge-dark badge-pill">${qty}</span>
                 </li>`
         $('#items').append(mystr);
     }
